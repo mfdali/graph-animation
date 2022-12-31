@@ -8,5 +8,10 @@ A script to write letters with Matplotlib's scatter plots, create transitions fr
 Libraries:
 scatter_letters, OpenCV, Matplotlib and ImageIO.  
 
-## Install  
+## Require  
 `pip install scatter_letters`
+
+## Usage
+
+    from scatter_letters import sl
+    sl.text_to_gif('data_')
